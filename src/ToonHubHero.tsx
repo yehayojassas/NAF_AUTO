@@ -167,9 +167,10 @@ export default function ToonHubHero() {
             src="/logo.png"
             alt="NAF Automobiles SA"
             style={{
-              height: '68px',
+              height: '80px',
               width: 'auto',
               display: 'block',
+              mixBlendMode: 'multiply',
             }}
           />
         </div>
