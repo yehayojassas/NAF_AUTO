@@ -165,6 +165,7 @@ export default function ToonHubHero() {
           style={{ zIndex: 2, top: '18%' }}
         >
           <span
+            translate="no"
             style={{
               fontFamily: 'Anton, sans-serif',
               fontSize: 'clamp(32px, 7vw, 96px)',
