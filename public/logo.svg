@@ -1,41 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" fill="none">
-  <!-- NAF with orange stroke outline -->
-  <text x="4" y="46"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 68" fill="none">
+  <!-- NAF: orange stroke halo + white fill -->
+  <text x="2" y="44"
     font-family="Arial Black, Impact, sans-serif"
-    font-size="48"
+    font-size="46"
     font-weight="900"
     font-style="italic"
-    fill="#F97316"
     stroke="#F97316"
-    stroke-width="6"
-    paint-order="stroke"
-    letter-spacing="-1"
-  >NAF</text>
-  <text x="4" y="46"
-    font-family="Arial Black, Impact, sans-serif"
-    font-size="48"
-    font-weight="900"
-    font-style="italic"
-    fill="#111111"
+    stroke-width="8"
+    stroke-linejoin="round"
+    paint-order="stroke fill"
+    fill="white"
     letter-spacing="-1"
   >NAF</text>
 
-  <!-- Orange horizontal line -->
-  <rect x="4" y="51" width="212" height="3" fill="#F97316" rx="1"/>
+  <!-- Orange line -->
+  <rect x="2" y="50" width="206" height="2.5" fill="#F97316" rx="1"/>
 
-  <!-- AUTOMOBILES SA -->
-  <text x="4" y="68"
+  <!-- AUTOMOBILES -->
+  <text x="2" y="65"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="13.5"
+    font-size="13"
     font-weight="700"
-    fill="#111111"
-    letter-spacing="3.5"
+    fill="white"
+    letter-spacing="4"
   >AUTOMOBILES</text>
-  <text x="176" y="64"
+
+  <!-- SA superscript -->
+  <text x="172" y="60"
     font-family="Arial, Helvetica, sans-serif"
     font-size="9"
     font-weight="700"
-    fill="#111111"
+    fill="white"
     letter-spacing="1"
   >SA</text>
 </svg>

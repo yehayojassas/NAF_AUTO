@@ -163,9 +163,16 @@ export default function ToonHubHero() {
           className="absolute top-4 left-4 sm:top-6 sm:left-8"
           style={{ zIndex: 60 }}
         >
-          <div style={{ padding: '6px 10px', borderRadius: '8px', background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(4px)' }}>
-            <img src="/logo.svg" alt="NAF Automobiles SA" style={{ height: '40px', width: 'auto', display: 'block' }} />
-          </div>
+          <img
+            src="/logo.svg"
+            alt="NAF Automobiles SA"
+            style={{
+              height: '48px',
+              width: 'auto',
+              display: 'block',
+              filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.25))',
+            }}
+          />
         </div>
 
         {/* Giant ghost text */}
