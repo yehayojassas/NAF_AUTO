@@ -1,36 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 68" fill="none">
-  <!-- NAF: orange stroke halo + white fill -->
-  <text x="2" y="44"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 75" fill="none">
+  <!-- White glow behind for contrast on any bg color -->
+  <text x="4" y="48"
     font-family="Arial Black, Impact, sans-serif"
-    font-size="46"
+    font-size="52"
+    font-weight="900"
+    font-style="italic"
+    stroke="rgba(255,255,255,0.6)"
+    stroke-width="12"
+    stroke-linejoin="round"
+    paint-order="stroke fill"
+    fill="none"
+    letter-spacing="2"
+  >NAF</text>
+
+  <!-- Orange outline layer -->
+  <text x="4" y="48"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="52"
     font-weight="900"
     font-style="italic"
     stroke="#F97316"
-    stroke-width="8"
+    stroke-width="7"
     stroke-linejoin="round"
     paint-order="stroke fill"
-    fill="white"
-    letter-spacing="-1"
+    fill="#111111"
+    letter-spacing="2"
   >NAF</text>
 
-  <!-- Orange line -->
-  <rect x="2" y="50" width="206" height="2.5" fill="#F97316" rx="1"/>
+  <!-- Orange horizontal line -->
+  <rect x="4" y="54" width="232" height="2.5" fill="#F97316" rx="1"/>
 
-  <!-- AUTOMOBILES -->
-  <text x="2" y="65"
+  <!-- AUTOMOBILES white glow -->
+  <text x="4" y="70"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="13"
-    font-weight="700"
-    fill="white"
-    letter-spacing="4"
+    font-size="14"
+    font-weight="800"
+    stroke="rgba(255,255,255,0.5)"
+    stroke-width="5"
+    stroke-linejoin="round"
+    paint-order="stroke fill"
+    fill="none"
+    letter-spacing="4.5"
   >AUTOMOBILES</text>
 
-  <!-- SA superscript -->
-  <text x="172" y="60"
+  <!-- AUTOMOBILES black -->
+  <text x="4" y="70"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="9"
-    font-weight="700"
-    fill="white"
-    letter-spacing="1"
+    font-size="14"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="4.5"
+  >AUTOMOBILES</text>
+
+  <!-- SA white glow -->
+  <text x="196" y="65"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="800"
+    stroke="rgba(255,255,255,0.5)"
+    stroke-width="4"
+    paint-order="stroke fill"
+    fill="none"
+  >SA</text>
+
+  <!-- SA black -->
+  <text x="196" y="65"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="800"
+    fill="#111111"
   >SA</text>
 </svg>

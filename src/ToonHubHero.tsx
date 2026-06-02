@@ -170,7 +170,6 @@ export default function ToonHubHero() {
               height: '68px',
               width: 'auto',
               display: 'block',
-              filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.25))',
             }}
           />
         </div>
