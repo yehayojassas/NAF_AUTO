@@ -83,13 +83,13 @@ export default function ToonHubHero() {
 
     if (idx === center) {
       return {
-        transform: `translateX(-50%) scale(${isMobile ? 1.25 : 1.68})`,
+        transform: `translateX(-50%) scale(${isMobile ? 1.0 : 1.3})`,
         filter: 'none',
         opacity: 1,
         zIndex: 20,
         left: '50%',
-        height: isMobile ? '60%' : '92%',
-        bottom: isMobile ? '22%' : 0,
+        height: isMobile ? '48%' : '70%',
+        bottom: isMobile ? '18%' : 0,
         transition: baseTransition,
         willChange: 'transform, filter, opacity',
       };
@@ -101,8 +101,8 @@ export default function ToonHubHero() {
         opacity: 0.85,
         zIndex: 10,
         left: isMobile ? '20%' : '30%',
-        height: isMobile ? '16%' : '28%',
-        bottom: isMobile ? '32%' : '12%',
+        height: isMobile ? '13%' : '22%',
+        bottom: isMobile ? '28%' : '10%',
         transition: baseTransition,
         willChange: 'transform, filter, opacity',
       };
@@ -114,8 +114,8 @@ export default function ToonHubHero() {
         opacity: 0.85,
         zIndex: 10,
         left: isMobile ? '80%' : '70%',
-        height: isMobile ? '16%' : '28%',
-        bottom: isMobile ? '32%' : '12%',
+        height: isMobile ? '13%' : '22%',
+        bottom: isMobile ? '28%' : '10%',
         transition: baseTransition,
         willChange: 'transform, filter, opacity',
       };
@@ -127,8 +127,8 @@ export default function ToonHubHero() {
       opacity: 1,
       zIndex: 5,
       left: '50%',
-      height: isMobile ? '13%' : '22%',
-      bottom: isMobile ? '32%' : '12%',
+      height: isMobile ? '10%' : '17%',
+      bottom: isMobile ? '28%' : '10%',
       transition: baseTransition,
       willChange: 'transform, filter, opacity',
     };
