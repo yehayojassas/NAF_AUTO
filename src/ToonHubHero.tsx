@@ -164,7 +164,7 @@ export default function ToonHubHero() {
           style={{ zIndex: 60 }}
         >
           <img
-            src="/logo.svg"
+            src="/logo.png"
             alt="NAF Automobiles SA"
             style={{
               height: '68px',
