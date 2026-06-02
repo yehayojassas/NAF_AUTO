@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" fill="none">
+  <!-- NAF with orange stroke outline -->
+  <text x="4" y="46"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="48"
+    font-weight="900"
+    font-style="italic"
+    fill="#F97316"
+    stroke="#F97316"
+    stroke-width="6"
+    paint-order="stroke"
+    letter-spacing="-1"
+  >NAF</text>
+  <text x="4" y="46"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="48"
+    font-weight="900"
+    font-style="italic"
+    fill="#111111"
+    letter-spacing="-1"
+  >NAF</text>
+
+  <!-- Orange horizontal line -->
+  <rect x="4" y="51" width="212" height="3" fill="#F97316" rx="1"/>
+
+  <!-- AUTOMOBILES SA -->
+  <text x="4" y="68"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13.5"
+    font-weight="700"
+    fill="#111111"
+    letter-spacing="3.5"
+  >AUTOMOBILES</text>
+  <text x="176" y="64"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    font-weight="700"
+    fill="#111111"
+    letter-spacing="1"
+  >SA</text>
+</svg>
