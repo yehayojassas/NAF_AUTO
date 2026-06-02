@@ -280,10 +280,31 @@ export default function ToonHubHero() {
           </div>
         </div>
 
+        {/* Bottom-right partner logos */}
+        <div
+          className="hidden sm:flex absolute bottom-4 right-8 items-center gap-3"
+          style={{ zIndex: 60 }}
+        >
+          {['partenaire.png', 'partenaire2.png', 'partenaire3.png', 'partenaire4.png', 'partenaire5.png'].map((p) => (
+            <img
+              key={p}
+              src={`/${p}`}
+              alt=""
+              style={{
+                height: '40px',
+                width: 'auto',
+                objectFit: 'contain',
+                mixBlendMode: 'multiply',
+                opacity: 0.9,
+              }}
+            />
+          ))}
+        </div>
+
         {/* Bottom-right "DISCOVER IT" link */}
         <a
           href="#"
-          className="absolute bottom-6 right-4 sm:bottom-20 sm:right-10 flex items-center gap-2"
+          className="absolute bottom-16 right-4 sm:bottom-20 sm:right-10 flex items-center gap-2"
           style={{
             zIndex: 60,
             fontFamily: 'Anton, sans-serif',
