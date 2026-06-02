@@ -7,24 +7,28 @@ const IMAGES = [
     bg: '#F4845F',
     panel: '#F79B7F',
     label: 'DÉPANNAGE',
+    subtitle: '50 ans d\'expérience',
   },
   {
     src: 'https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/2.b977faab.png',
     bg: '#6BBF7A',
     panel: '#85CC92',
     label: 'LOCATION',
+    subtitle: '',
   },
   {
     src: 'https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/3.4df853b4.png',
     bg: '#E882B4',
     panel: '#ED9DC4',
     label: 'VENTE',
+    subtitle: '',
   },
   {
     src: 'https://fifth-gentle-45902158.figma.site/_components/v2/4de492f6d9cf8244ad5293233e5c6f52407d42fc/4.4457fbce.png',
     bg: '#6EB5FF',
     panel: '#8DC4FF',
     label: 'RÉPARATION',
+    subtitle: '',
   },
 ];
 
@@ -178,7 +182,7 @@ export default function ToonHubHero() {
         {/* Giant ghost text */}
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 flex items-center justify-center pointer-events-none select-none"
+          className="absolute inset-x-0 flex flex-col items-center justify-center pointer-events-none select-none"
           style={{ zIndex: 2, top: '18%' }}
         >
           <span
@@ -197,6 +201,23 @@ export default function ToonHubHero() {
           >
             {IMAGES[activeIndex].label}
           </span>
+          {IMAGES[activeIndex].subtitle && (
+            <span
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: 'clamp(13px, 1.8vw, 22px)',
+                fontWeight: 600,
+                color: 'white',
+                opacity: 0.55,
+                letterSpacing: '0.15em',
+                textTransform: 'uppercase',
+                marginTop: '8px',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {IMAGES[activeIndex].subtitle}
+            </span>
+          )}
         </div>
 
         {/* Carousel items */}
