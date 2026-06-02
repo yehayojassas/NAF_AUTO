@@ -182,19 +182,6 @@ export default function ToonHubHero() {
           </span>
         </div>
 
-        {/* Top-left brand label */}
-        <div
-          className="absolute top-6 left-4 sm:left-8"
-          style={{ zIndex: 60 }}
-        >
-          <span
-            className="text-xs font-semibold uppercase"
-            style={{ color: 'white', opacity: 0.9, letterSpacing: '0.18em' }}
-          >
-            TOONHUB
-          </span>
-        </div>
-
         {/* Carousel items */}
         <div className="absolute inset-0" style={{ zIndex: 3 }}>
           {IMAGES.map((img, idx) => (
@@ -226,19 +213,6 @@ export default function ToonHubHero() {
           className="absolute bottom-6 left-4 sm:bottom-20 sm:left-24"
           style={{ zIndex: 60, maxWidth: '320px' }}
         >
-          <p
-            className="font-bold uppercase tracking-widest mb-2 sm:mb-3 text-base sm:text-[22px]"
-            style={{ color: 'white', opacity: 0.95, letterSpacing: '0.02em' }}
-          >
-            TOONHUB FIGURINES
-          </p>
-          <p
-            className="hidden sm:block text-xs sm:text-sm mb-4 sm:mb-5"
-            style={{ color: 'white', opacity: 0.85, lineHeight: 1.6 }}
-          >
-            The artwork is stunning, shipped fully prepared. The finish is a vision,
-            the 3D craft is flawless. Many thanks! Wishing you the win. Order now.
-          </p>
           <div className="flex items-center gap-3">
             <button
               type="button"
