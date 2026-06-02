@@ -167,13 +167,13 @@ export default function ToonHubHero() {
           <span
             style={{
               fontFamily: 'Anton, sans-serif',
-              fontSize: 'clamp(90px, 28vw, 380px)',
+              fontSize: 'clamp(32px, 7vw, 96px)',
               fontWeight: 900,
               color: 'white',
-              opacity: 1,
+              opacity: 0.25,
               lineHeight: 1,
               textTransform: 'uppercase',
-              letterSpacing: '-0.02em',
+              letterSpacing: '0.12em',
               whiteSpace: 'nowrap',
             }}
           >
